@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias - Diario</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles.css"/>
+    
+</head>
+<body class="font-sans">
+
+    <!-- Barra de navegación -->
+    <nav class="bg-purple-900 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Noticias</h1>
+            <ul class="flex space-x-4">
+                <li><a href="/" class="hover:underline">Inicio</a></li>
+                <li><a href="/acerca.html" class="hover:underline">Acerca</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Contenido principal -->
+    <div class="container mx-auto p-4">
+
+        <!-- Slider de imágenes -->
+    <div class="w-full">
+        <div class="slider-container">
+            <div class="slick-slider">
+                <div class="slick-slide">
+                    <div class="video-container">
+                        <iframe
+                            width="100%"
+                            height="400"
+                            src="https://www.youtube.com/embed/Jx3hNcMyOMs?start=8"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <div class="video-container">
+                        <iframe
+                            width="100%"
+                            height="400"
+                            src="https://www.youtube.com/embed/PsYV94-wbgE?start=3"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <div class="video-container">
+                        <iframe
+                            width="100%"
+                            height="400"
+                            src="https://www.youtube.com/embed/MJHs-WrohlM?start=28"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+                <!-- Agrega más slides según sea necesario -->
+            </div>
+        </div>
+    </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Noticia 1 -->
+            <a href="news/bitcoin-mercado-altcoin.html">
+                <div class="bg-white rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+                    <img src="img/news/bitcoin.jpeg" alt="Bitcoin se come el mercado altcoin" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-lg font-bold mb-2">Bitcoin se come el mercado altcoin</h2>
+                        <p class="text-gray-700">Bitcoin está liderando el mercado de las criptomonedas, superando a todas las demás monedas digitales en valor y adopción. Este informe explora su crecimiento y su impacto en las altcoins.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Noticia 2 -->
+            <a href="news/mezcladores-amenaza.html">
+                <div class="bg-white rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+                    <img src="img/news/mixer.webp" alt="¿Los mezcladores son una amenaza?" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-lg font-bold mb-2">¿Los mezcladores son una amenaza?</h2>
+                        <p class="text-gray-700">Este artículo examina el rol de los mezcladores de criptomonedas y su posible impacto en la privacidad y la seguridad financiera. ¿Son una amenaza real o una solución necesaria?</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Noticia 3 -->
+            <a href="news/sim-encriptado.html">
+                <div class="bg-white rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+                    <img src="img/news/esim.jpg" alt="eSIM y SIM Card Encriptados" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-lg font-bold mb-2">eSIM y SIM Card Encriptados</h2>
+                        <p class="text-gray-700">Exploramos la tecnología eSIM y las tarjetas SIM encriptadas. Descubre cómo estas innovaciones están mejorando la seguridad y la flexibilidad en la comunicación móvil.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Noticia 4 -->
+            <a href="news/crypto-paypal.html">
+                <div class="bg-white rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+                    <img src="img/news/paypal.webp" alt="Crypto de Paypal: ¿Un peligro potencial?" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-lg font-bold mb-2">Crypto de Paypal: ¿Un peligro potencial?</h2>
+                        <p class="text-gray-700">El lanzamiento de la stablecoin PayPal USD (PYUSD) ha generado grandes expectativas entre los diferentes actores del sector financiero, considerándola como un "posible desafío para las instituciones bancarias". Así lo asegura John Adams, especialista en la industria bancaria estadounidense y editor de la revista American Banker.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Noticia 5 -->
+            <a href="news/chainlink.html">
+            <div class="bg-white rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+                <img src="img/news/chainlink.jpg" alt="Nuevo sistema de staking en Chainlink" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold mb-2">Nuevo sistema de staking en Chainlink</h2>
+                    <p class="text-gray-700">Descubre el último desarrollo en la red Chainlink: un nuevo sistema de staking que promete aumentar la participación de los usuarios y mejorar la seguridad de la red, junto a una plataforma con reservas en el token LINK. Este artículo analiza cómo funciona y su importancia en el ecosistema de criptomonedas.</p>
+                </div>
+            </div>
+            </a>
+
+            <!-- Noticia 6 -->
+            <a href="news/rol-usdt-elecciones.html">
+            <div class="bg-white rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+                <img src="img/news/usdt.jpg" alt="Rol del USDT en las elecciones argentinas" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold mb-2">Rol del USDT en las elecciones argentinas</h2>
+                    <p class="text-gray-700">Este informe investiga el papel del USDT (Tether) en las elecciones argentinas y cómo las criptomonedas se han convertido en una parte integral de la economía y la política. ¿Puede el USDT influir en el resultado de las elecciones o es simplemente un reflejo de las tendencias financieras actuales?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slick-slider').slick({
+                dots: true, // Muestra los puntos de navegación
+                arrows: true, // Muestra las flechas de navegación
+                prevArrow: '<button type="button" style="color=black" class="slick-prev">Previous</button>',
+                nextArrow: '<button type="button" class="slick-next">Next</button>',
+                infinite: true, // Habilita un bucle infinito
+                speed: 500, // Velocidad de la transición en milisegundos
+                slidesToShow: 1, // Muestra un slide a la vez
+                slidesToScroll: 1 // Navega un slide a la vez
+            });
+        });
+    </script>
+
+
+</body>
+</html>
