@@ -4,7 +4,14 @@ body {
 
 .slider-container {
     width: 800px;
+    max-width: 100%; /* Ajusta el ancho máximo al 100% de la pantalla */
+    overflow: hidden;
     margin: 0 auto;
+}
+
+.slider-container iframe {
+    max-width: 100%; /* Asegura que los videos no superen el ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la relación de aspecto */
 }
 
 .slick-slide img {
